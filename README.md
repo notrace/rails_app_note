@@ -1,4 +1,5 @@
 # rails_app_note
+使用rails开发web-server的笔记
 
 ## 注册账户
 修改devise, 登录使用phone
