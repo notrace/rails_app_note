@@ -6,14 +6,14 @@
 
 - [app/model/user.rb](/app/model/user.rb)
 - [config/devise.rb](/config/devise.rb)
-- [app/controller/api/sessions_controller.rb](/app/controller/api/sessions_controller.rb)
+- [app/controllers/api/sessions_controller.rb](/app/controllers/api/sessions_controller.rb)
 
 注册
-- [app/controller/api/fwd_controller.rb](/app/controller/api/fwd_controller.rb)
-- [app/controller/api/registrations_controller.rb](/app/controller/api/registrations_controller.rb)
+- [app/controllers/api/fwd_controller.rb](/app/controllers/api/fwd_controller.rb)
+- [app/controllers/api/registrations_controller.rb](/app/controllers/api/registrations_controller.rb)
 
 忘记密码
-- [app/controller/api/password_controller.rb](/app/controller/api/password_controller.rb)
+- [app/controllers/api/password_controller.rb](/app/controllers/api/password_controller.rb)
 
 ## has_many through 表单管理关系
   has_many :workshops, :dependent => :destroy
