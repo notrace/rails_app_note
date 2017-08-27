@@ -13,7 +13,7 @@
 - [app/controllers/api/v1/registrations_controller.rb](/app/controllers/api/v1/registrations_controller.rb)
 
 忘记密码
-- [app/controllers/api/v1/password_controller.rb](/app/controllers/api/v1/password_controller.rb)
+- [app/controllers/api/v1/passwords_controller.rb](/app/controllers/api/v1/passwords_controller.rb)
 
 ## has_many through 表单管理关系
   has_many :workshops, :dependent => :destroy
